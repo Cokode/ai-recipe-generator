@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+## Serverless Web Application using Generative AI - *by Collins Chinedu Amalimeh*
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
