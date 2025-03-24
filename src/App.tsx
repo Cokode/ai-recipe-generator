@@ -32,6 +32,7 @@ function App() {
 
       if (!errors) {
         setResult(data?.body || "No data returned");
+        console.log(data?.body);
       } else {
         console.log(errors);
       }
