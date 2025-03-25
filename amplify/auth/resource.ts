@@ -9,8 +9,13 @@ export const auth = defineAuth({
     email: {
       verificationEmailStyle: "CODE",
       verificationEmailSubject: "Welcome to the AI-Powered Recipe Generator!",
-      verificationEmailBody: (createCode) =>
-        `Use this code to confirm your account: ${createCode()}`,
-    },
-  },
-});
+      verificationEmailBody: (createCode) => 
+        `🎉 Welcome aboard! Use this code to verify your account: ${createCode()} ✅  
+
+        I'm excited to have you! If you need any help, I'm here for you.  
+
+        Cheers,  
+        Collins Mr 🍀🚀`
+    }
+  }
+})
