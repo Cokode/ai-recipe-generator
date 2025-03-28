@@ -1,6 +1,6 @@
-# Serverless Web Application using Generative AI >
+# Serverless Web Application using Generative AI
 
-[**Download my CV here**](https://collinsawsbucketlist.s3.us-east-1.amazonaws.com/AWS_S3/CV+-+Collins+Amalimeh.pdf)
+[**Download my CV**](https://collinsawsbucketlist.s3.us-east-1.amazonaws.com/AWS_S3/CV+-+Collins+Amalimeh.pdf)
 
  ### This is a serverless web app that uses Amazon’s Cloud 3 Sonnet model to generate recipes based on user-provided ingredients. 
 
@@ -13,24 +13,29 @@
 - **Familiarity with Git and Github account.**
 
  ## Application Architecture
- ![alt text](./public/imgs/image8.png)
+![alt text](./public/imgs/image8.png)
 
 ## Feactured UI Interfaces
 
 - **Sign Up Page**
+
 ![alt text](./public/imgs/image6.png)
 
 - **Sign in Page**
+
 ![alt text](./public/imgs/image5.png)
 
-- **Home Screen**  
+- **Home Screen** 
+
 ![The Interface](./public/imgs/image.png)
 
 - **Sample: Generating a recipe _( Famous Hungarian beef soup - Gulyás (Goulash Soup) )_**
+
 ![alt text](./public/imgs/image3.png)
 ![alt text](./public/imgs/image4.png)
 
 - **Password Reset Page**
+
 ![alt text](./public/imgs/image7.png)
 
 ## Technologies used includes several `Amazon Web Services`, listed below:  
@@ -59,8 +64,8 @@
 ## 
 [**Download my CV**](https://collinsawsbucketlist.s3.us-east-1.amazonaws.com/AWS_S3/CV+-+Collins+Amalimeh.pdf)
 
-
-:yum: [**Check out this app**](https://main.dsowentchwvt2.amplifyapp.com/)
+##
+[**Check out this app**](https://main.dsowentchwvt2.amplifyapp.com/) :yum:
 
 ```
   My sincere thanks for taking your time to view my project. 
