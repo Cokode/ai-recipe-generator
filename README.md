@@ -1,56 +1,75 @@
-# React + TypeScript + Vite
+# Serverless Web Application using Generative AI >
 
-## Serverless Web Application using Generative AI - *by Collins Chinedu Amalimeh*
+[**Download my CV here**](https://collinsawsbucketlist.s3.us-east-1.amazonaws.com/AWS_S3/CV+-+Collins+Amalimeh.pdf)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ ### This is a serverless web app that uses Amazon’s Cloud 3 Sonnet model to generate recipes based on user-provided ingredients. 
 
-Currently, two official plugins are available:
+> 
+> To build such an application, one must first possess the necessary knowledge of AWS services and be able to do the following:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ - **Create a new AWS account.**
+ - **Configure users and Setup Environment.**
+- **Set up the AWS CLI,**
+- **Familiarity with Git and Github account.**
 
-## Expanding the ESLint configuration
+ ## Application Architecture
+ ![alt text](./public/imgs/image8.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Feactured UI Interfaces
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **Sign Up Page**
+![alt text](./public/imgs/image6.png)
+
+- **Sign in Page**
+![alt text](./public/imgs/image5.png)
+
+- **Home Screen**  
+![The Interface](./public/imgs/image.png)
+
+- **Sample: Generating a recipe _( Famous Hungarian beef soup - Gulyás (Goulash Soup) )_**
+![alt text](./public/imgs/image3.png)
+![alt text](./public/imgs/image4.png)
+
+- **Password Reset Page**
+![alt text](./public/imgs/image7.png)
+
+## Technologies used includes several `Amazon Web Services`, listed below:  
+
+- **AWS Amplify**
+- **AWS Amplify Auth (Amazon Cognito)**
+- **AWS Lambda**
+- **Amazon Bedrock**
+- **Amazon Claude 3 Sonnet**
+  
+## 
+
+## Technology Description ###
+
+| AWS Service | Description |
+| ----------- | ----------- |
+| **AWS Amplify** | A comprehensive set of tools and services that help developers build and deploy scalable mobile and web applications quickly and easily. <br/>It includes features such as authentication, APIs, storage, hosting, and more, all backed by the reliability and scalability of the AWS cloud.
+| **Amazon Cognito** | used to implement user authentication and authorization for web and mobile applications.
+| **AWS Lambda** | AWS compute service that you can use to build applications without provisioning or managing servers.
+| **Amazon Bedrock** | AWS fully managed service that offers foundation AI models for building generative AI applications.
+| **Claude 3 Sonnet** | The very AI model  used in this application, is teh first Claude model to offer extended thinking, the ability to solve complex problems with careful, step-by-step reasoning.|
+## 
+
+[**Go back to Top** ](#serverless-web-application-using-generative-ai)
+
+## 
+[**Download my CV**](https://collinsawsbucketlist.s3.us-east-1.amazonaws.com/AWS_S3/CV+-+Collins+Amalimeh.pdf)
+
+
+:yum: [**Check out this app**](https://main.dsowentchwvt2.amplifyapp.com/)
+
+```
+  My sincere thanks for taking your time to view my project. 
+  
+  I hope you found it interesting, or at least it inspired you. 
+  
+  Are you a in this IT realm like me and looking for entry level positions?  
+  
+  Do not be discouraged. 
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+@ Collins Chinedu Amalimeh
